@@ -9,5 +9,5 @@ install:
 build_script:
   - cd "%APPVEYOR_BUILD_FOLDER%"
   - ocaml setup.ml -configure
-  - ocaml setup.ml -build
+  - ocaml setup.ml -info -build
   - ocaml setup.ml -install
