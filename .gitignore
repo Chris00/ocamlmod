@@ -1,0 +1,14 @@
+# Boring file regexps:
+
+*.o
+*.prof
+*.obj
+*.a
+*.exe
+*.so
+_build/
+setup.log
+setup.data
+*.byte
+*.native
+src/ocamlmodConf.ml
